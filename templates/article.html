@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Article</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100">
+
+<div class="max-w-4xl mx-auto p-8">
+
+<a href="/"
+class="text-blue-600">
+← Back
+</a>
+
+<div class="bg-white p-8 mt-4 rounded shadow">
+    <img
+    src="{{ article.thumbnail }}"
+    class="w-full rounded mb-6"
+>
+
+    <pre class="whitespace-pre-wrap">
+
+    {{ article.article }}
+
+    </pre>
+
+</div>
+
+</div>
+
+</body>
+</html>
