@@ -1,0 +1,6 @@
+youtube-transcript-api
+google-api-python-client
+langchain-google-genai
+python-dotenv
+Flask
+gunicorn
